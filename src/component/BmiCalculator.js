@@ -10,7 +10,7 @@ const BmiCalculator = () => {
 
   const calculateBMI = () => {
     if (!weight || !height) {
-      alert('Please enter both weight and height!');
+      alert('Please provide your weight and height!');
       return;
     }
 
@@ -36,7 +36,7 @@ const BmiCalculator = () => {
       <h1>BMI Calculator</h1>
       <div className='input-group'>
         <label>
-          Weight (kg):
+          Weight (kg): 
           <input
             type="number"
             value={weight}
@@ -47,7 +47,7 @@ const BmiCalculator = () => {
       </div>
       <div className='input-group'>
         <label>
-          Height (cm):
+          Height (cm): 
           <input
             type="number"
             value={height}
